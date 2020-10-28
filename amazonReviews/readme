@@ -1,0 +1,4 @@
+In this script we performed sentiment analysis using an unsupervised machine learning method. We applied the VADER (Valence Aware Dictionary for sEntiment Reasoning), a sentiment intensity analyser implemented in NLTK to analyse our unlabeled  dataset which is a set of amazon reviews. This tool gave us the polarity score (negative, positive, neutral or compound). Finally, we used scikit-learn to evaluate the accuracy of our result and to show the classification report and the confusion matrix by comparing our classification results with a gold standard (manual labels). 
+
+The results show that the F score is 70%. However, we can clearly notice that Vader has a little bit of trouble with negative review reviews versus the positive ones as its really hard for it to detect sarcasm. 
+
