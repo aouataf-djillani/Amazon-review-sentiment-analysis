@@ -1,6 +1,6 @@
 
 # Amazon review data analysis using Vader, Logistic regression and SVM  
-In this repository we provide sentiment analysis using a supervised machine learning method. In a previous project, we applied the VADER (Valence Aware Dictionary for sEntiment Reasoning), a sentiment intensity analyser implemented in NLTK to analyse our unlabeled amazon reviews data-set, we obtained a performance score of 71%. 
+In this repository we provide sentiment analysis using a supervised machine learning method. In a previous project, we applied the VADER (Valence Aware Dictionary for sEntiment Reasoning), a sentiment intensity analyser implemented in NLTK to analyse our unlabeled amazon reviews data-set, we obtained a performance score of 71%. (check vader_classifier.py)
 Our main goal is the achieve a better performance in predicting positive and negative reviews. 
 
 ## Dataset 
